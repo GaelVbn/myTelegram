@@ -10,13 +10,13 @@ import { supabase } from "../lib/supabase";
 
 type AuthContext = {
   session: Session | null;
-  user: User | undefined;
+  user: User | null | any;
   profile: null | any;
 };
 
 const AuthContext = createContext<AuthContext>({
   session: null,
-  user: undefined,
+  user: null,
   profile: null,
 });
 
