@@ -30,7 +30,6 @@ export default function Auth() {
     if (error) Alert.alert(error.message);
     setLoading(false);
   }
-
   async function signUpWithEmail() {
     setLoading(true);
     const {
