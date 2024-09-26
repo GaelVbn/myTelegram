@@ -18,7 +18,7 @@ export default function TabsNavigator() {
         options={{
           title: "Profile",
           tabBarIcon: ({ size, color }) => (
-            <FontAwesome5 name="user-alt" size={size} color={color} />
+            <FontAwesome5 name="user" size={size} color={color} />
           ),
         }}
       />
